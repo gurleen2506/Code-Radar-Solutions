@@ -7,6 +7,6 @@ int main() {
     }
     else{
         pritnf("False");
-    };;;;
+    };
     return 0;
 }
