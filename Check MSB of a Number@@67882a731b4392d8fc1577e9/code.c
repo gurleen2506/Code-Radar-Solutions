@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 {
-    int a;
-    scanf("%d", &a);
-    if(checkMSB(a)){
-        printf("Set");
-    }
-    else{
-        printf("Not Set");
-    }
+   int a =1<<31,b;
+   scanf("%d", &b);
+   if(a&b){
+   printf("Set")
+   }
+   else{
+    printf("Not Set");
+   }
     return 0;
 }
