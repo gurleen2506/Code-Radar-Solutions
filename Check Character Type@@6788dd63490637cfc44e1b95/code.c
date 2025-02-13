@@ -8,7 +8,7 @@ int main(){
     else{
         printf("Consonant");
     }
-    else if(is digit(a)){
+    else if(isdigit(a)){
         printf("Digit");
     }
     else{
