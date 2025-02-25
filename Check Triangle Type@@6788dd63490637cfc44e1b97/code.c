@@ -5,7 +5,7 @@ scanf("%d %d %d",&a,&b,&c);
 if(a==b==c){
     printf("Equilateral");
 }
-else if(a=b!=c || a!=c=b || a=c!=b){
+else if(a==b && a!=c || b==c && b!=c || a==c && a!=b){
     printf("Isoceles");
 }
 else{
